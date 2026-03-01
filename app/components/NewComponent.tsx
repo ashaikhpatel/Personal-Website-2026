@@ -34,8 +34,8 @@ export default function NewComponent() {
           <div className="overflow-hidden rounded-t-full border-[6px] border-[#FFF9F0]">
              <img 
               src="/royal-cat.jpg" 
-              className="w-80 h-[450px] object-cover hover:scale-105 transition-transform duration-700"
-              style={{ clipPath: 'ellipse(100% 100% at 50% 100%)' }} 
+              alt="Cat Royalty"
+              className="w-80 h-[450px] object-cover hover:scale-105 transition-transform duration-700 mughal-arch-clip"
             />
           </div>
         </div>
