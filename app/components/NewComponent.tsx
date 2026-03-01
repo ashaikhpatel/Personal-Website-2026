@@ -3,10 +3,9 @@ import React from 'react';
 
 export default function NewComponent() {
   return (
-    /* 1. Main Container: Now uses a background image with overlay for readability */
     <div className="max-w-2xl mx-auto my-10 p-10 rounded-2xl shadow-xl border-[6px] border-double border-[#D1AE6D] relative overflow-hidden"
          style={{ 
-           backgroundImage: 'url(/background.jpg)', // Reference your image here
+           backgroundImage: 'url(/background.jpg)',
            backgroundSize: 'cover',
            backgroundPosition: 'center',
          }}>
