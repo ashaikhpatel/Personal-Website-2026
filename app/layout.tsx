@@ -2,6 +2,12 @@ import type { Metadata } from "next";
 import Link from 'next/link'
 import "./globals.css";
 import { Fleur_De_Leah, Smooch_Sans, Playfair_Display } from "next/font/google";
+import localFont from "next/font/local";
+
+const AsiyahShaikh = localFont({
+  src: '../public/fonts/AsiyahShaikh.ttf',
+  variable: '--font-handwriting',
+});
 
 const fleur = Fleur_De_Leah({ 
   weight: '400',
@@ -27,7 +33,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${fleur.variable} ${smoochSans.variable} ${playfair.variable}`}>
+    <html lang="en" className={`${fleur.variable} ${smoochSans.variable} ${playfair.variable} ${AsiyahShaikh.variable}`}>
       <body className="bg-[#FDF5E6] antialiased min-h-screen">
        <nav className="w-full px-10 py-6 flex justify-between items-center font-serif bg-[#9E616A]/30 backdrop-blur-xl sticky top-0 z-50 border-b border-[#E5B1B6]/20 shadow-sm transition-all duration-300">
         <Link href="/" className="text-xl font-bold text-[#93445e] hover:text-[#FCEEA8] transition-colors">

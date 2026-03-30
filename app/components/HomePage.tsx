@@ -18,7 +18,7 @@ export default function Home() {
       src: "/fall-at-UIC.jpeg", 
       rotate: "rotate-[4deg]", 
       pos: "top-[220px] left-70",
-      tape: "tape-sage",
+      tape: "tape-lavender",
       zIndex: "z-20"
     },
     { 
@@ -34,7 +34,7 @@ export default function Home() {
       src: "/cafe-pic.jpeg", 
       rotate: "rotate-[4deg]", 
       pos: "top-[700px] left-70",
-      tape: "tape-lavender",
+      tape: "tape-bluelily",
       zIndex: "z-40"
     },
   ];
@@ -45,15 +45,15 @@ export default function Home() {
       <div className="relative z-10 max-w-6xl mx-auto p-10 flex flex-col">
         
         <header className="pt-10 mb-10">
-          <h1 className="text-6xl md:text-8xl text-[#9E616A] font-[family-name:var(--font-fleur)]">
+          <h1 className="text-10xl md:text-8xl text-[#9E616A] font-[family-name:var(--font-fleur)]">
             My Portfolio
           </h1>
         </header>
 
-        <div className="absolute top-32 right-10 rotate-[2deg] z-40">
-          <div className="bg-[#FDF5E6] p-4 shadow-md border-l-4 border-[#96A480] max-w-xs relative">
+        <div className="absolute top-32 right-10 rotate-[7deg] z-40">
+          <div className="bg-[#FDF5E6] p-4 shadow-md border-l-10 border-[#96A480] max-w-xs relative">
             <div className="washi-tape tape-sage absolute -top-3 left-1/2 -translate-x-1/2 w-24" />
-            <p className="text-[#556B2F] italic text-lg leading-relaxed">
+            <p className="text-[#556B2F] italic font-bold text-3xl leading-relaxed font-[family-name:var(--font-handwriting)]">
               Computer Science @ UIC | Aspiring Cybersecurity Analyst| Educator | Developer | Engineer
             </p>
           </div>
@@ -88,9 +88,9 @@ export default function Home() {
             <div className={`absolute left-4 right-4 bg-white p-6 shadow-md transition-all duration-700 z-10 
               ${isOpen ? '-translate-y-48 scale-105 opacity-100' : 'translate-y-0 h-32 opacity-0'}`}>
               <div className="border border-[#C87D87]/10 h-full w-full p-4 flex flex-col items-center justify-center text-center">
-                <p className="text-xs text-[#6B4E31] leading-relaxed italic">
+                <p className="text-s text-black leading-relaxed font-bold italic font-[family-name:var(--font-handwriting)] ">
                   Welcome to my digital garden. It is truly a pleasure to have you.
-                  Please, make yourself at home as you wander through these curated corners;
+                  Please, make yourself at home as you wander through these curated corners.
                   I hope the view is worth your stay.
                 </p>
               </div>

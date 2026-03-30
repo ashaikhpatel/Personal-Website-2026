@@ -54,9 +54,6 @@ export default function ArtifactsPage() {
           <h1 className="text-7xl md:text-8xl text-[#556B2F] font-[family-name:var(--font-fleur)] tracking-tight">
             The Gallery
           </h1>
-          <p className="italic text-[#9E616A] text-xl font-medium tracking-wide">
-            A curated collection of artifacts & works
-          </p>
         </header>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">

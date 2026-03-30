@@ -48,7 +48,7 @@ const projects = [
     tag: "Art Installation",
     shortDesc: "An award-winning multimedia installation exploring spatial design and lighting.",
     fullDesc: "A full-scale physical exhibition featuring hand-crafted paper fish, light-integrated 'clouds' and jellyfish. I managed the lifecycle of this project from a small-scale prototype (Proof of Concept) to a full-room immersive installation.",
-    link: "#",
+    link: "",
     tech: ["Spatial Design", "Mixed Media", "Prototyping", "Color Theory", "Hand-crafted"],
     previewImage: "/Installation_preview.jpg",
     comingSoon: false,
@@ -116,7 +116,7 @@ export default function ProjectsPage() {
           </h1>
           <div className="flex items-center justify-center gap-6">
             <div className="h-[1px] w-20 bg-[#E5B1B6]" />
-            <p className="italic text-[#9E616A] text-xl font-medium tracking-wide"> This is a gallery of all my projects.</p>
+            <p className="italic text-[#9E616A] text-xl font-serif tracking-wide"> This is a gallery of all my projects.</p>
             <div className="h-[1px] w-20 bg-[#E5B1B6]" />
           </div>
         </header>
@@ -133,7 +133,7 @@ export default function ProjectsPage() {
                   : 'bg-[#F6DFE0] border border-[#E5B1B6] cursor-pointer hover:-translate-y-2 hover:shadow-2xl hover:border-[#96A480]'}
               `}
             >
-              <div className={`h-48 rounded-xl mb-6 flex items-center justify-center border border-[#E5B1B6]/50 overflow-hidden
+              <div className={`h-48 rounded-xl mb-6 flex items-center justify-center border border-[#E5B1B6]/60 overflow-hidden
                 ${project.comingSoon ? 'bg-[#FCEEA8]/10' : 'bg-[#FCEEA8]'}
               `}>
                 {project.previewImage && !project.comingSoon ? (
@@ -148,7 +148,7 @@ export default function ProjectsPage() {
               </div>
 
               <span className={`px-3 py-1 rounded-full text-[10px] uppercase tracking-widest font-bold mb-4 inline-block bg-[#E5B1B6] text-[#800000] 
-                ${project.comingSoon ? 'opacity-40' : 'opacity-100'}`}>
+                ${project.comingSoon ? 'opacity-60' : 'opacity-100'}`}>
                 {project.comingSoon ? "Coming Soon" : project.tag}
               </span>
 

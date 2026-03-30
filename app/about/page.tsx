@@ -20,7 +20,7 @@ const About = () => {
         <section className="w-full">
           <TulipIcon className="inline-block w-10 h-10 text-[#9E616A] mr-2 -mt-2 align-middle" />
             <div className="bio-scroll-frame text-justify">
-              <div className="space-y-6 text-sm md:text-base text-[#6B4E31] leading-relaxed">
+              <div className="space-y-6 text-lg text-[#6B4E31] leading-relaxed font-bold font-[family-name:var(--font-smooch-sans)]">
               <p>
                 <span className="text-3xl font-bold text-[#96A480] font-serif">H</span>i, I’m Asiyah. 
                  I’m a Computer Science student with a background that’s anything but linear. For a long time, I traded code for canvases; 
